@@ -1,0 +1,30 @@
+{
+  "name": "brick-server",
+  "version": "1.0.0",
+  "description": "Create an http handler for brick-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/brick-server",
+  "keywords": [
+    "handler",
+    "http",
+    "server",
+    "static",
+    "assets"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.3.13",
+    "standard": "^3.7.1",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
