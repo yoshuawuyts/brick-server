@@ -16,7 +16,9 @@
     "assets"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "is-stream": "^1.0.1"
+  },
   "devDependencies": {
     "istanbul": "^0.3.13",
     "standard": "^3.7.1",
